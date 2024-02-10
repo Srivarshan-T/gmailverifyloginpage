@@ -18,3 +18,8 @@ function checkgmail(){
 
 
 }
+inputbox=document.getElementId("inputbox");
+inputbox.addEventListener("keypress",funtion(e){
+if(e.keycode==13){
+checkgmail();}
+    ,false);
